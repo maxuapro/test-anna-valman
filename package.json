@@ -1,0 +1,13 @@
+{
+  "name": "annavalmantest",
+  "version": "1.0.0",
+  "description": "tests",
+  "main": "data.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "maxuapro",
+  "license": "ISC"
+}
