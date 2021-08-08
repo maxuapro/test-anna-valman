@@ -1,18 +1,6 @@
-let str = 'Rafshan'
-let rrr = "/^raf.*/ig"
-
-let arr = []
-let forregex = ''
-let flags = ''
-
-if (rrr.startsWith('/')) {
-    arr = rrr.split('/')
-}
-
-console.log(arr)
+let asd = [1, 2, 3, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7]
 
 
-let reg = new RegExp(arr[1], arr[2])
-console.log('-->', reg, reg.test(str))
+let sdf = [1, 2, 3, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7].map(el => el)
 
-// console.log(str.test("Rafshan"))
+console.log(asd)

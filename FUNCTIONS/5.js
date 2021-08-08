@@ -1,9 +1,10 @@
 import { testData4 } from '../data.js'
+import { stringToRegexp } from '../HELPER_FUNCTIONS/stringToRegexp.js'
 
 
 const array_contains = (arr, strRegExp) => {
 
-    const [reg, flags] = strRegExp.split('/').splice(1, 2)
+    const [reg, flags] = stringToRegexp(strRegExp)
     const regexp = new RegExp(reg, flags)
 
     return arr.every(el => !regexp.test(el)) ? false : true
